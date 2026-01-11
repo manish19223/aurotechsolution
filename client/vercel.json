@@ -1,10 +1,9 @@
 {
   "functions": {
     "api/**/*.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs18"
     }
   },
-
   "headers": [
     {
       "source": "/(.*)",
@@ -14,5 +13,9 @@
         { "key": "X-XSS-Protection", "value": "1; mode=block" }
       ]
     }
+  ],
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
