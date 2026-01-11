@@ -7,7 +7,7 @@ import servicesBanner from "../../assets/images/aboutbanner.jpg";
 import forestlines from "../../assets/images/Forestlines.jpg";
 import festive from "../../assets/images/Festiveshop.jpg";
 import naagarigam from "../../assets/images/Naagarigam.jpg";
-import sundar from "../../assets/images/Sundarprints.jpg";
+import sundar from "../../assets/images/SundarPrints.jpg";
 import ocr from "../../assets/images/OCRwebsite.jpg";
 import webstream from "../../assets/images/webstream.jpg";
 import ipconfig from "../../assets/images/IPconfig.jpg";
